@@ -1,2 +1,6 @@
 **/.DS_Store
 *.pyc
+*.egg-info
+*.egg
+build/
+params/

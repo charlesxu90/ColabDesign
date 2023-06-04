@@ -1,0 +1,15 @@
+name: colabdesign-env
+
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+  - pytorch     # For torch series
+  - bioconda
+
+dependencies:
+  - python=3.10
+  - pip=23.1.2
+
+  # - pip:
+  #   - -r colab-requirements.txt
